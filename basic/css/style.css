@@ -1,13 +1,61 @@
 @charset "UTF-8";
+/*
+ * template basic
+ */
 
+
+
+
+
+/*
+ * foundation
+ */
 html {
   font-size:10px;
 }
 
 body {
+  color: #333;
+  font-family: helvetica, arial, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   font-size: 1.4rem;
+  line-height: 1.5;
 }
 
-h1 {
-  font-size: 2rem;
-}
+
+
+
+
+/*
+ * utility
+ */
+ /* clearfix */
+ .clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+ }
+
+/* float */
+.fl_l {float:left!important}
+.fl_r {float:right!important}
+
+/* width */
+.w_10 {width:10%!important}
+.w_20 {width:20%!important}
+.w_30 {width:30%!important}
+.w_40 {width:40%!important}
+.w_50 {width:50%!important}
+.w_60 {width:60%!important}
+.w_70 {width:70%!important}
+.w_80 {width:80%!important}
+.w_90 {width:90%!important}
+.w_100 {width:100%!important}
+.w_a {width:auto!important}
+
+
+
+
+
+/*
+ * module
+ */
